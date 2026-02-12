@@ -1,0 +1,36 @@
+# tenglik❗
+print(12==12)
+print(382==382)
+print(12222==12222)
+print(232==232)
+print(12.1==12.1)
+# teng emas❗
+print(122!=100)
+print(7927!=9)
+print(87!=87.3)
+print(90!=89.9)
+print(37388!=37388)
+# katta❗
+print(122>121.9)
+print(18>13)
+print(297>100)
+print(12.8>12.7)
+print(1237>1236)
+# kichik❗
+print(152<1652)
+print(12.9<13)
+print(67<70)
+print(7887<8000)
+print(2635.2<2635.3)
+# teng yoki katta❗
+print(233>=232)
+print(788>=787)
+print(667>=666)
+print(10000000>=9999999)
+print(127384>=127383)
+# teng yoki kichik❗
+print(1231<=1232)
+print(839<=840)
+print(3637<=3638)
+print(63735<=63735)
+print(555<=556)
