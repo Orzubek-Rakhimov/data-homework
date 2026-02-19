@@ -51,7 +51,7 @@
 
 # 3=kasiba yil❗
 # yil=int(input("yilni kiriting: "))
-# if yil%400==0 and yil%100==0 or yil%4==0:
+# if yil%400==0 and yil%100!=0 or yil%4==0:
 #     print("kabisa yil")
 # else:    print("kabisa yil emas")
 
@@ -107,4 +107,5 @@ except ZeroDivisionError:
     print("Xatolik! Bo'y 0 bo'lishi mumkin emas.")
 
 except Exception:
+
     print("Noma'lum xatolik yuz berdi.")
