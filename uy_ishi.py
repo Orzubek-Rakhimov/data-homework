@@ -1,40 +1,11 @@
-# 1 Foydalanuvchidan input olinadi Toq va juft son topuchio programma tuzing.
+# Oson
+# 1. Kvadratlar jadvali: 1 dan 20 gacha bo'lgan sonlarning kvadratini (i**2) ekranga jadval ko'rinishida chiqaring.
 
 
-son=int (input("Sonni kirizing :"))
-if son % 2:
-    print("Bu son toq son !")
-else :
-    print("Bu son juft son !") 
-
-
-
-
-
-
-
-# 2 Foydalanuvchidan input olinadi va bu input uning test dagi bahosi (0-100)
-# 90 va undan baland bolsa → "5"
-# 80–89 → "4"
-# 70–79 → "3"
-# 60–69 → "2"
-#  60 dan past → "1"
-
-
-baxo=int(input ("Testdan olgan baxoingizni kiriting :"))
-
-if  baxo<0 or baxo >100:
-    print("Xato son kiritingiz :")
-elif baxo>=90:
-    print("Sizning baxoingiz: 5 ")
-elif baxo>=80:
-   print("Sizning baxoinggiz: 4 ")
-elif baxo>=70:
-    print("Sizning baxoingiz: 3 ")
-elif baxo >= 60:
-    print("Sizning baxoingiz: 1 ")
-else:
-    print("Siz esi past lox odam ekansiz:")
+for i in range(1,21):
+     print (i)
+     i=i**2
+print(i)
 
 
 
@@ -43,22 +14,16 @@ else:
 
 
 
-# 3  Foydalanuvchidan 3 ta input olinadi  3 ta inputdan qaysi biri eng kattasi ekanligini chiqarsin
-# agar 3 tasi xam teng bolsa 3 tasi teng deb chiqarsin.
 
 
-son1=float(input("1-Sonni kiriting :"))
-son2=float(input("2-Sonni kiriting :"))
-son3=float(input("3-Sonni kiriting :"))
 
-if son1>son2 and son1>son3:
- print(son1, "Eng katta son")
-elif son2>son1 and son2> son3:
-    print(son2, "Eng katta son")
-elif son3>son1 and son3>son2:
-    print(son3, "Eng katta son")
-elif son1==son2 and son2==son3:
-    print("Xamma son teng !")
+# 2. Foydalanuvchidan son so'raymiz va shu sondan 1 ga cha bolgan sonlarni chiqaramiz ( 100 => 100,99,98 ....1) ( 5 => 5,4,3,2,1)
+
+
+
+son=int(input("Son kiriting :"))
+for i in range(son,0,-1):
+     print(i)
 
 
 
@@ -67,17 +32,80 @@ elif son1==son2 and son2==son3:
 
 
 
-# 4 Foydalanuvchidan 2 ta input olinadi (1-login , 2-kod)
-# kiritgan 2 ta inputi login va kod bn bir xil bo'lsa (kirish mumkin) bo'lmasa (kirish mumkin emas) dab chiqarsn.
-
-login="Ismailov"
-kod=123456789
-loginn=(input("Loginni kiriting :"))
-kodd=int(input("Kodinggizni kiriting :"))
-if login==loginn and kod==kodd:
-    print("Tizimga kirishingiz mumkun")
-else:
-    print("Kirishinggiz mumkun emas ! ")    
+# O'rtacha
 
 
+# 3.  Foydalanuvchidan son so'ralsi9n va shu sonni 1 dan 10 gacha ko'paytmasi chiqarilsin ( 5 => 5 * 1 = 5, 5 * 2 = 10 , 15,20 .... 45,50) ( 7 => 7,14,21,28 ... 63,70)
+
+son=int(input("Sonni kirgizing :"))
+for i in range(1,11):
+     i=son*i
+     print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 4.   Faktorialni topish: Berilgan musbat butun sonning faktorialini (masalan, 5! = 1*2*3*4*5) for yordamida hisoblaydigan dastur tuzing 
+
+son=int(input("Sonni kiriting :"))
+n=1
+for i in range (1,son+1):
+     n=n*i
+     print(n)
+
+
+
+
+
+
+
+
+
+
+
+
+# Qiyin
+
+
+# 5. Tub sonlarni aniqlash: 1 dan 100 gacha bo'lgan oraliqdagi barcha tub sonlarni (faqat o'ziga va 1 ga bo'linadigan sonlar) topib chiqaring  (2,3,5,7 ... 97)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 6. Yulduzchali piramida: Ichma-ich tsikllar yordamida quyidagi shaklni hosil qiling (int)
+# => (5)
+# *
+# **
+# ***
+# ****
+# *****
+# => (6)
+# *
+# **
+# ***
+# ****
+# *****
+# ******
 
