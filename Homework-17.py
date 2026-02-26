@@ -13,7 +13,7 @@ while son<=15:
      son=son+1
      if son%3==0:
           continue
-     elif son==13:
+     elif son==14:
           break
      print(son)
 
@@ -113,6 +113,7 @@ while True:
         break
 
      
+
 
 
 
