@@ -90,6 +90,7 @@ while urinish > 0:
 # Faqat 10 ga bo'linadigan summalarni yechishga ruxsat bering, aks holda "Faqat 10 ga karrali summa kiriting" deb qaytaring.
 
 
+
 balans = 1000
 toxtatish = "quit"
 
@@ -99,20 +100,20 @@ while True:
     if foydalanuvchining_kiritishi == toxtatish:  
         print("Sizning operatsiyangiz yakunlandi.")
         break
-     if foydalanuvchining_balans > balans:
-        print("Sizning kartangizdagi kamlik qiladi :")
-        continue
     foydalanuvchining_balans = float(foydalanuvchining_kiritishi)  
     if foydalanuvchining_balans % 10 != 0:
         print("Faqat 10 ga karrali summa kiriting!")
+        continue
+    if foydalanuvchining_balans > balans:
+        print("Sizning kartangizdagi kamlik qiladi :")
         continue
     balans =balans-foydalanuvchining_balans
     print("Muvafqyatli yechildi", balans)
     if balans == 0:
         print("Balans tugadi." ,balans)
         break
-
      
+
 
 
 
