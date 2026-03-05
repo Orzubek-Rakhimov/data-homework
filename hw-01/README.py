@@ -1,35 +1,34 @@
-# 1.  Karra jadvali: Faqat 10 soni uchun karra jadvalini (7x1 dan 7x10 gacha) to'liq chiqaring.
-# for i in range(1, 10):
-#     for j in range(1, 10):
-#         print(i, "*", j, "=", i*j)
-#     print()
+# 1.Foydalanuvchi login kiritayotganda tasodifan boshiga yoki oxiriga bo'sh joy (space) tashlab ketsa, bu xatoni qanday bartaraf etasiz?
+# a=input("Loginni kiriting: ")
+# print(a.strip())
+
+# "***Python***" satridagi yulduzchalarni olib tashlab, faqat so'zning o'zini qoldirish uchun ushbu metoddan qanday foydalaniladi?
+# a=input("Loginni kiriting: ")
+# print(a.strip("*"))
 
 
-# 2.  Salom, Dunyo!: Ekranga "Men Pythonni o'rganyapman" jumlasini tsikl orqali 20 marta chiqaring. (13 siklda chiqarmasn va 19 siklda toxtatsin)
-# for i in range (1,21):
-#     if i==13 :
-#         continue
-#     if i==19 :
-#         break
-#     print(i,"Men Pythonni o'rganyapman")
 
+# 2.1 Berilgan gapdagi barcha nuqtalarni vergulga almashtiruvchi kod yozing.
+# a=input("Gapni kiriting: ")
+# print(a.replace(".",","))
 
-# 3.  Sonlarni o'tkazib yuborish: 1 dan 100 gacha bo'lgan sonlarni chiqaring, lekin 5 ga bo'linadigan sonlar kelganda ularni tashlab o'tib keting (continue ishlating)
-# for i in range(1,101):
-#     if i%5==0:
-#         continue
-#     print(i)
+# 2.2 Satr ichidagi bo'sh joylarni (probel) butunlay olib tashlash (ya'ni "" ga almashtirish) uchun bu metodni qanday qo'llaysiz?
+# a=input("Gapni kiriting: ")
+# print(a.replace(" ",""))
 
+# 3.1 Matn ichida "Python" so'zi necha marta takrorlanganini aniqlang.
+# a=input("Matnni kiriting: ")
+# print(a.count("Python"))
 
-# 4. Koordinatalar: 2 ta son so’rimiz va shu sonlar gacha bo'lgan x va y o'qlari uchun barcha nuqtalarni chiqaring (masalan: (0,0), (0,1), (0,2)...). (nested loop) (2 forni bir birini ichida ishlatish)
-# a=int(input("1-sonni kiriting: "))
-# b=int(input("2-sonni kiriting: "))
-# for x in range(0,a+1):
-#     for y in range(0,b+1):
-#         print("(",x,",",y,")")
+# 3.2 Satrdagi unli harflar (masalan, 'a') sonini hisoblashda ushbu metoddan qanday foydalaniladi?
+# a=input("Matnni kiriting: ")
+# print(a.count("a"))
 
-
-# 5.    Hard:
-# Matritsa: 3x3 o'lchamdagi matritsani (ro'yxat ichidagi ro'yxat) ekranga chiroyli shaklda chiqaring.
-# 
-# ISHLOLMADM.
+# 4 Berilgan matndagi barcha tinish belgilarini olib tashlab, so'ngra barcha so'zlarni katta harfga o'tkazuvchi va a harfini o ga aylantiruvchi dastur tuzing. Bunda ham for, ham yuqoridagi metodlardan foydalaning.
+# # "g'afur" => "GOFUR"
+# a=input("Matnni kiriting: ")
+# t="'.,!-()?:;"
+# for i in t:
+#     a=a.replace(t,"")
+# a=a.replace("a","o")
+# print(a.upper())
