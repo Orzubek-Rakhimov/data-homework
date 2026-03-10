@@ -70,7 +70,7 @@ def text_uzunligi():
     uzunlik=0
     for i in mant:
          uzunlik=uzunlik+1
-         print(f"Matnning uznunlik soni  : {uzunlik}")
+     print(f"Matnning uznunlik soni  : {uzunlik}")
 text_uzunligi()
 
 
@@ -133,6 +133,7 @@ def salomlashuvchi():
      ism=input("Ismingizni kiriting : ")
      print(f'Salom {ism}')
 salomlashuvchi()
+
 
 
 
