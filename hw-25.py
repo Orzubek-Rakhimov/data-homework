@@ -95,6 +95,8 @@ colors=["qizil","yashil","kok"]
 print(colors[0])
 colors[1]="sariq"
 colors.append('binafsha')
+colors.remove("qizil")
 print(colors)
+
 
 
