@@ -1,33 +1,67 @@
-1. Oson bosqich: "Bozorlik ro'yxati"
-Bu bosqichda asosiy maqsad — ro'yxat yaratish va unga element qo'shishni o'rganish.
-Vazifa: bozorlik deb nomlangan bo'sh ro'yxat yarating. Unga .append() yordamida kamida 4 ta mahsulot qo'shing (masalan: "Olma", "Non", "Sut", "Tuxum").
-Amal: Ro'yxatdagi ikkinchi elementni ("Non") ekranga chiqaring va oxirgi elementni .pop() yordamida o'chirib tashlang.
-Natija: Yakuniy ro'yxatni konsolga chiqaring.
-2. O'rta bosqich: "Saralash va Filtrlash"
-Bu bosqichda ro'yxat metodlari va sikllar (for loop) bilan ishlash talab etiladi.
-Vazifa: Ixtiyoriy 10 ta sondan iborat sonlar ro'yxatini tuzing (masalan: [12, 5, 20, 8, 15, ...]).
-Amal:
-Ro'yxatni kichigidan kattasiga qarab saralang (.sort()).
-Yangi juft_sonlar degan bo'sh ro'yxat oching.
-for sikli yordamida asosiy ro'yxatdagi faqat juft sonlarni ajratib, yangi ro'yxatga joylang.
-Natija: Ikkala ro'yxatni ham ekranga chiqaring va ularning uzunligini (len) ko'rsating.
+#1
+# bozorlik=[]
+
+# bozorlik.append("Olma")
+# bozorlik.append("non")
+# bozorlik.append("tuxum")
+# bozorlik.append("sut")
+# print(bozorlik)
+# print(bozorlik[1])
+# bozorlik.pop(3)
+# print(bozorlik)
+
+
+
+#2
+
+# sonlar=[15,8,47,98,51,32,1,17,88,16]
+
+# for i in sonlar:
+#     print(i)
+# sonlar.sort()
+# print(sonlar)
+
+# juft_sonlar=[]
+# for x in sonlar:
+#     if x%2==0:
+#         juft_sonlar.append(x)
+# print(juft_sonlar)
+# print(len(sonlar))
+# print(len(juft_sonlar))
 
 
 
 
-1. Oson bosqich: "Ismlar filtri"
-Bu bosqichda siz ro'yxatni qidirish va o'zgartirishni mashq qilasiz.
-Vazifa: 5 ta do'stingiz ismidan iborat dustlar ro'yxatini tuzing.
-Amal:
-Foydalanuvchidan bitta ism so'rang.
-Agar bu ism ro'yxatda bo'lsa, uni o'chirib tashlang (.remove()).
-Agar ro'yxatda bo'lmasa, "Bunday ism topilmadi" deb xabar chiqaring.
-Natija: Yangilangan ro'yxatni alifbo tartibida chiqaring.
-2. O'rta bosqich: "Unique (Noyob) elementlar"
-Bu bosqichda siz takrorlanishlar bilan ishlashni o'rganasiz.
-Vazifa: Ichida bir xil elementlar bir necha bor qatnashgan ro'yxat yarating. Masalan: mevalar = ["olma", "banan", "olma", "uzum", "banan", "olcha"].
-Amal:
-Yangi bo'sh ro'yxat yarating (toza_ruyxat).
-for sikli yordamida asosiy ro'yxatni aylanib chiqing.
-Agar meva toza_ruyxat ichida yo'q bo'lsa (if item not in...), uni qo'shing.
-Natija: Faqat takrorlanmas mevalardan iborat ro'yxatni konsolga chiqaring.
+
+
+
+
+
+#1
+# ismlar=["Amirbek","Munis","Sanjar","Nodir","Feruz"]
+
+# x=input("Ism kiriting: ")
+
+# if x in ismlar:
+#     ismlar.remove(x)
+# else:
+#     print("Bunday ism topilmadi")
+# ismlar.sort()
+# print(ismlar)
+
+
+
+
+
+
+#2
+
+# mevalar=["olma","banan","mango","kiwi","mango","gilos","kiwi"]
+
+
+# toza_royhat=[]
+
+# for i in mevalar:
+#     if i not in toza_royhat:
+#         toza_royhat.append(i)
+# print(toza_royhat)
