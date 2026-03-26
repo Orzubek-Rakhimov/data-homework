@@ -1,0 +1,83 @@
+[
+
+
+    {
+        "Dell Inspiron": "Laptop",
+        "Protsessor": "Intel i5",
+        "RAM": "8GB",
+        "Xotira": "512GB SSD",
+        "Narx": "900 dollar",
+        "Rang": "Oq"
+    },
+    {
+        "HP Envy": "Laptop",
+        "Protsessor": "Intel i7",
+        "RAM": "16GB",
+        "Xotira": "1TB SSD",
+        "Narx": "1500 dollar",
+        "Rang": "Kulrang"
+    },
+    {
+        "Apple MacBook Pro": "Laptop",
+        "Protsessor": "Apple M1",
+        "RAM": "16GB",
+        "Xotira": "512GB SSD",
+        "Narx": "2000 dollar",
+        "Rang": "Kulrang"
+    },
+    {
+        "MSI GF63": "Laptop",
+        "Protsessor": "Intel i5",
+        "RAM": "16GB",
+        "Xotira": "512GB SSD",
+        "Narx": "1100 dollar",
+        "Rang": "Qora"
+    },
+    {
+        "Samsung Galaxy Book": "Laptop",
+        "Protsessor": "Intel i7",
+        "RAM": "16GB",
+        "Xotira": "1TB SSD",
+        "Narx": "1400 dollar",
+        "Rang": "Oq"
+    },
+    {
+        "Asus ZenBook": "Laptop",
+        "Protsessor": "Intel i7",
+        "RAM": "16GB",
+        "Xotira": "1TB SSD",
+        "Narx": "1600 dollar",
+        "Rang": "Kulrang"
+    },
+    {
+        "Acer Swift 3": "Laptop",
+        "Protsessor": "Intel i5",
+        "RAM": "8GB",
+        "Xotira": "512GB SSD",
+        "Narx": "950 dollar",
+        "Rang": "Qora"
+    },
+    {
+        "Lenovo IdeaPad 5": "Laptop",
+        "Protsessor": "Intel i5",
+        "RAM": "8GB",
+        "Xotira": "512GB SSD",
+        "Narx": "850 dollar",
+        "Rang": "Kulrang"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
