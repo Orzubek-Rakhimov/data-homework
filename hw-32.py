@@ -16,9 +16,9 @@ def vazifa():
         for vazifa in json_vazifalar:
             print(f"« {vazifa["id"]} • {vazifa["title"]} • {vazifa["done"]} • {vazifa["time"]} »")
         print("———————————————————————————————")
-def shaxs_qoshish():
+def vazifa_qoshish():
     try:
-        shaxs_title=input("Menuga qaytish uchun 5 ni kirting!\nvazifa kirting: ")
+        vazifa_title=input("Menuga qaytish uchun 5 ni kirting!\nvazifa kirting: ")
         with open("vazifa.json") as f:
             vazifalar=f.read()
             if not vazifalar:
@@ -32,7 +32,7 @@ def shaxs_qoshish():
                 id = 1
             vazifa={
                     "id":id,
-                    "title":shaxs_title,
+                    "title":vazifa_title,
                     "done":False,
                     "time":time.ctime()
             }
@@ -87,7 +87,7 @@ while True:
         if tanlov==1:
             vazifa()
         elif tanlov==2:
-            shaxs_qoshish()
+            vazifa_qoshish()
         elif tanlov==3:
             vazifa_ochirish()
         elif tanlov==4:
